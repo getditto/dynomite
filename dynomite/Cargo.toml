@@ -25,8 +25,8 @@ futures = "0.3"
 log = "0.4"
 # Disable default features since the `rustls` variant requires it. We re-enable `default` in our
 # `default` build configuration - see the [features] below.
-rusoto_core = { git = "https://github.com/getditto/rusoto.git", rev = "4e0a60d12aee2652473802bd3771f4e4037cd95b", optional = true, default_features = false }
-rusoto_dynamodb = { git = "https://github.com/getditto/rusoto.git", rev = "4e0a60d12aee2652473802bd3771f4e4037cd95b", version = "0.48", optional = true, default_features = false }
+rusoto_core = { git = "https://github.com/getditto/rusoto.git", rev = "a167fb4fd2d0b3b3f8d191d1d905fe8a60f66a3a", optional = true, default_features = false }
+rusoto_dynamodb = { git = "https://github.com/getditto/rusoto.git", rev = "a167fb4fd2d0b3b3f8d191d1d905fe8a60f66a3a", version = "0.48", optional = true, default_features = false }
 uuid = { version = "1.1.2", features = ["v4"], optional = true }
 chrono = { version = "0.4", optional = true }
 
